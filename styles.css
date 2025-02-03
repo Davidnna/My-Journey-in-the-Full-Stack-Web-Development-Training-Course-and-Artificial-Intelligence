@@ -1,13 +1,12 @@
 body {
     margin: 0;
 }
+
 .assignment1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
     background-color: cyan;
     color: #333;
-}
-.assignment1 {
     .container {
         width: 80%;
         margin: auto;
@@ -37,13 +36,12 @@ body {
         }
     }
 }
+
 .assignment2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
     background-color: #f0f8ff;
     color: #333;
-}
-.assignment2 {
     ul {
         list-style-type: none;
         padding: 0;
