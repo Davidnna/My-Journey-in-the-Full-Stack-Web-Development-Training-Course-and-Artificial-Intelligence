@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+}
+
+/* My Journey */
+.assignment1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1.25em;
+    background-color: cyan;
+    color: #333;
+
+    h1 {
+        text-align: center;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    h1, h2, h3, h4, h5 {
+        color: #0056b3;
+    }
+
+    h4, p {
+        line-height: 1.6;
+    }
+}
+
+/* AI */
+.assignment2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1.25em;
+    background-color: #f0f8ff;
+    color: #333;
+
+    /* Main */
+    h1, h2, h3, h4, h5 {
+        color: #2e8b57;
+        font-family: 'Georgia', serif;
+    }
+
+    p {
+        line-height: 1.8;
+        font-size: 1.1em;
+    }
+
+    .main p a {
+        color: #007acc;
+        text-decoration: none;
+    }
+
+    .main p a:hover {
+        color: #ff4500;
+    }
+
+    .main ul, .main ol {
+        margin: 2em 0;
+    }
+
+    .main ul li {
+        display: inline;
+        margin: 1em;
+    }
+
+    /* Multimedia */
+    .media figure {
+        margin: 0;
+    }
+
+    .media figure img, .media audio, .media video, .media iframe {
+        width: 22em;
+        display: block;
+        margin: 2em 0;
+    }
+    
+    .media iframe {
+        height: calc(0.55 * 22em);
+    }
+    
+    /* Extra */
+    .additional div {
+        background-color: #e6e6fa;
+        padding: 1em;
+        border-radius: 0.5em;
+    }
+    
+    .additional p b {
+        color: #000;
+    }
+    
+    .additional p i {
+        color: #4682b4;
+    }
+    
+    .additional p em {
+        color: #8b0000;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 410px) {
+        .media figure img, .media audio, .media video, .media iframe, header {
+            width: 100%;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+    
+        .media iframe#video {
+            height: 50vw;
+        }
+    }
+}
